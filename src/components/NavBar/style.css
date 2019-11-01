@@ -1,0 +1,10 @@
+nav li {
+    display: inline-block;
+    text-align: center;
+    margin: 10px;
+}
+
+.navBar {
+    background-color: blue;
+
+}
