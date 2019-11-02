@@ -1,8 +1,8 @@
 {
   "name": "clicky-game",
-  "homepage": "https://colinjcason.github.io/clicky-game",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://colinjcason.github.io/clicky-game",
   "dependencies": {
     "gh-pages": "^2.1.1",
     "react": "^16.11.0",
@@ -10,9 +10,9 @@
     "react-scripts": "3.2.0"
   },
   "scripts": {
+    "start": "react-scripts start",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
-    "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
