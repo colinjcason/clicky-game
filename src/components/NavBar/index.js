@@ -8,7 +8,7 @@ function NavBar(props) {
             <ul>
                 <li className="navbar-brand">{props.name}</li>
                 <li>Click to get started!</li>
-                <li>Score:  | Top Score: </li>
+                <li>Score: {props.score} | Top Score: {props.topScore}</li>
             </ul>
             </div>
         </nav>

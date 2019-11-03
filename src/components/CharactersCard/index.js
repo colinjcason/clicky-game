@@ -6,7 +6,12 @@ function CharactersCard(props) {
         <div className="container">
         <div className="card">
             <div className="img-container">
-                <img onClick={props.onClick} src={props.image} alt={props.name} />
+                <img
+                key={props.id} 
+                onClick={() => props.handleClick(props.id, props.clicked)} 
+                src={props.image} 
+                alt={props.name}
+                id={props.name} />
             </div>
         </div>
         </div>
