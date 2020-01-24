@@ -1,3 +1,6 @@
+## Clicky Game
+This application is a memory card game. Once the user clicks an image, they rearrange at random on the screen. You can only click an image once. If a image is clicked more than once, the game is over. The user must try to click all 16 images to win the game.
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
